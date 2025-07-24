@@ -28,6 +28,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - 'SegmentTree.html'
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -111,6 +112,6 @@ theme: fluid  # 指定主题
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/linyisu/linyisu.github.io.git
+  repo: git@github.com:linyisu/linyisu.github.io.git
   branch: main
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
